@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+}
+
+.header .headerContainer{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+}
+
+.navLink {
+  transition: color 300ms;
+}
+
+.headerContainer svg:hover {
+  transform: scale(1.1);
+}

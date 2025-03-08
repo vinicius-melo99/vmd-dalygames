@@ -1,0 +1,17 @@
+:root {
+  /* colors */
+
+  /* dark */
+  --light-dark: #3f3f3f;
+  --default-dark: #303030;
+  --strong-dark: #242424;
+
+  /* blue */
+  --main-blue: #0074ba;
+
+  /* orange */
+  --daly-orange: #EA580C;
+
+  /* white */
+  --daly-white: #F1F5F9;
+}
