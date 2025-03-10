@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist_Mono, Roboto } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/HeaderComponent/header';
+import { ToastContainer } from 'react-toastify';
 
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
@@ -24,8 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={`${roboto.variable} ${geistMono.variable} antialiased`}>
+        <ToastContainer />
         <Header />
         {children}
       </body>
